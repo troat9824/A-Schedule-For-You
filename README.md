@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-![Alt text]
+![alt text]
 
 ## Purpose
 An hourly scheduler to help keep you on track
