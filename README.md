@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-![alt text](./Develop/scheduler-screenshot.jpg)
+![alt text](./assets/images/scheduler-screenshot.jpg)
 
 ## Purpose
 An hourly scheduler to help keep you on track
