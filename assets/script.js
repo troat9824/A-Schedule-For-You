@@ -30,9 +30,13 @@ $(".row").each(function() {
 saveBtn.on("click", function () {  
 
     var row = $(this).attr("id"); // variable referencing the assigned hour row in the html doc 
-    var input = $("." + row + "hour").value; // saves the text that has been entered into the input column 
+    var input = $("." + row + "hour").val(); // saves the text that has been entered into the input column 
     localStorage.setItem(row, input); //saves input to local storaage
     console.log(localStorage);
 });
     
-// local storage not working
+function loadTasks() {
+    for (var i = 0; i <= 17; i++) {
+    $("." + i + "hour").val(localStorage.getItem(i));
+}};
+loadTasks();
